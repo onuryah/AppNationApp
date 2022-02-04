@@ -8,7 +8,7 @@
 import Foundation
 
 
-struct JSON: Codable {
+struct JSON: Decodable, Encodable {
     let data: JSONData
 }
 
